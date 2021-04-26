@@ -47,15 +47,18 @@
     width: 33%;
 }
 
-.levi{
-    position: absolute;
-    bottom:-20px;
-}
+
 
 .box-sx{
     position: absolute;
-    bottom: -60px;
+    bottom: -10px;
 }
+
+/* .box-middle{
+    position: absolute;
+    bottom: 300px
+}  */
+
 
 .prezzi-rossi{
     color: red;
