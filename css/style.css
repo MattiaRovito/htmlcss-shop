@@ -51,13 +51,26 @@
 
 .box-sx{
     position: absolute;
-    bottom: -10px;
+    bottom: -60px;
 }
 
-/* .box-middle{
+.box-middle{
     position: absolute;
-    bottom: 300px
-}  */
+    bottom: -60px;
+    left: 34%;
+} 
+
+.box-dx{
+    position: absolute;
+    bottom: -52px;
+    right: 1%;
+    background-color: #75ac51;
+    width: 33%;
+    line-height: 1.6;
+}
+
+
+
 
 
 .prezzi-rossi{
