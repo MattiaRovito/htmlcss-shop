@@ -172,3 +172,35 @@
 }
 
 
+
+
+
+
+/* cambio immagini */
+
+
+.none{
+    display: none;
+    height: 500px;
+    width: 33%;
+}
+
+
+.box:hover .img-sx{
+    cursor: pointer;
+    display: none;
+}
+
+.box:hover .none{
+    display: block;
+}
+
+
+
+.box:hover .img-middle{
+    cursor: pointer;
+    display: none;
+}
+
+
+
