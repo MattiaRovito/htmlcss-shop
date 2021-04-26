@@ -6,37 +6,58 @@
     box-sizing: border-box;
 }
 
-body{
-    padding: 50px;
-    width: 1000px;
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    position: relative;
 }
 
-.container{
+
+.clearfix::after{
     content:'';
     display: table;
     clear:both;
 }
 
-.clearfix{
-    float: left;
-}
 
 /* /common */
 
 
 /* parte superiore */
-.img{
-    width: calc(100% /3 - 10px);
+
+.float{
+    float: left;
 }
 
-.img-midd{
-    margin: 0 10px;
+.img-sx{
+    height: 500px;
+    width: 33%;
+    
 }
 
+.img-middle{
+    height: 500px;
+    width: calc(100% / 3 - 10px);
+    margin: 0 5px;
+}
 
+.img-dx{
+    height: 500px;
+    width: 33%;
+}
 
-/* debug */
-.debug{
-    height: 1000px;
-    background-color: red;
+.levi{
+    position: absolute;
+    bottom:-20px;
+}
+
+.box-sx{
+    position: absolute;
+    bottom: -60px;
+}
+
+.prezzi-rossi{
+    color: red;
+    margin-top: 3px;
 }
