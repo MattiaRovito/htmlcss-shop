@@ -21,6 +21,13 @@
 }
 
 
+.prezzi-rossi{
+    color: red;
+    margin-top: 3px;
+}
+
+
+
 /* /common */
 
 
@@ -70,10 +77,15 @@
 }
 
 
+/* parte inferiore */
 
+.secondo-div{
+    margin-top: 100px;
+}
 
-
-.prezzi-rossi{
-    color: red;
-    margin-top: 3px;
+.box-dx-esprit{
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    width: 33%;
 }
