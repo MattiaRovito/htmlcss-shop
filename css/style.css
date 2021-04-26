@@ -77,6 +77,87 @@
 }
 
 
+.cuore{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: 356px;
+    font-size: 26px;
+    text-align: center;
+    
+}
+
+
+.cuore2{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    left: 741px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.cuore3{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.sconto{
+    background-color: #d73b48;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    bottom: 10px;
+}
+
+.sconto2{
+    background-color: #d73b48;
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    bottom: 10px;
+    left: 392px;
+}
+
+
+.sostenibilità{
+    background-color: #3e8158;
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    bottom: 10px;
+    left: 45px;
+}
+
+.sostenibilità2{
+    background-color: #3e8158;
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    bottom: 10px;
+    right: 302px;
+}
+
+
+
 /* parte inferiore */
 
 .secondo-div{
@@ -89,3 +170,5 @@
     right: 0;
     width: 33%;
 }
+
+
