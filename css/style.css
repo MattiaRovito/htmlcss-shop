@@ -1,5 +1,42 @@
+/* common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    width: 1000px;
+}
+
+.container{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+.clearfix{
+    float: left;
+}
+
+/* /common */
+
+
+/* parte superiore */
+.img{
+    width: calc(100% /3 - 10px);
+}
+
+.img-midd{
+    margin: 0 10px;
+}
+
+
+
+/* debug */
+.debug{
+    height: 1000px;
+    background-color: red;
 }
